@@ -7,9 +7,8 @@ class About extends Component {
     function onClick(e) {
       e.preventDefault();
       console.log("hi!")
-      
       return (
-        <div className="About-me"> hi! </div>
+        window.location = "https://www.linkedin.com/in/jasmine-wang/"
       )
   }
 
