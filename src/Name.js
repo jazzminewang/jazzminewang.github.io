@@ -6,6 +6,7 @@ class Name extends Component {
 
     function onClick(e) {
         e.preventDefault();
+        window.location = "/"
     }
 
     return (        
