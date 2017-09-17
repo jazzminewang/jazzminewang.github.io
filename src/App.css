@@ -2,23 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Menu {
+  display: flex;
+  justify-content: center;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  background-color: white;
+  font-size: 3em;
+  font-weight: 500;
+  height: 10vh;
+  padding: 2em;
+  color: #222;
+  font-family: 'Raleway', sans-serif;
 }
 
 .App-intro {
+  padding: 1em;
+  font-family: 'Raleway', sans-serif;  
+  font-weight: 300;
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
