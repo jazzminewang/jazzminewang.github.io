@@ -3,6 +3,7 @@ import Name from './Name';
 import About from './About';
 import Resume from './Resume';
 import Mail from './Mail';
+import Github from './Github';
 
 import './App.css';
 
@@ -15,8 +16,9 @@ class App extends Component {
           <About />
           <Resume />
           <Mail />
+          <Github />
         </div>
-        
+
       </div>
     );
   }
