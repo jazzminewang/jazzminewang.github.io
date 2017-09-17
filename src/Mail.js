@@ -6,9 +6,9 @@ class Mail extends Component {
     
     function onClick(e) {
         e.preventDefault();
-        console.log('The link was clicked.');
-        window.location = "mailto:jwan483@uwo.ca"
+        window.location = "mailto:jwan483@uwo.ca";
     }
+    
     return (        
       <p className="App-intro" onClick={onClick}>
           mail
