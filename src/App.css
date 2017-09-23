@@ -15,8 +15,7 @@ a:-webkit-any-link {
   background-color: white;
   font-size: 3em;
   font-weight: 500;
-  height: 10vh;
-  padding: 2em;
+  padding: 0.5em;
   color: #222;
   font-family: 'Raleway', sans-serif;
 }

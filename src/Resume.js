@@ -7,7 +7,7 @@ class Resume extends Component {
     function onClick(e) {
       e.preventDefault();
       return (
-        window.location = "https://drive.google.com/file/d/0BweAYez46M55cXAxV1BXTHVBc0k/view?usp=sharing"
+        window.location = "https://drive.google.com/file/d/0BweAYez46M55N280UGx1X3paWTg/view?usp=sharing"
       )
   }
     return (        
