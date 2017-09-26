@@ -4,11 +4,11 @@ import './App.css';
 class About extends Component {
   render() {
 
-    function onClick(e) {
+    function onClick(e){
       e.preventDefault();
       console.log("hi!")
       return (
-        window.location = "https://www.linkedin.com/in/jasmine-wang/"
+        window.location = "/about"
       )
   }
 
